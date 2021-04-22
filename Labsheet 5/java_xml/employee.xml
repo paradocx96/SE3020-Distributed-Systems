@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee id="1">
+    <name>John</name>
+    <salary>30000.0</salary>
+    <designation>Junior Developer</designation>
+    <address>
+        <city>Sydney</city>
+        <line1>242 Main Street</line1>
+        <state>NSW</state>
+        <zipcode>600001</zipcode>
+    </address>
+</employee>

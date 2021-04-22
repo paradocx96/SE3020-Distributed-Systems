@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="employee" type="employee"/>
+
+  <xs:complexType name="employee">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="salary" type="xs:double"/>
+      <xs:element name="designation" type="xs:string" minOccurs="0"/>
+      <xs:element name="address" type="address" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="address">
+    <xs:sequence>
+      <xs:element name="city" type="xs:string" minOccurs="0"/>
+      <xs:element name="line1" type="xs:string" minOccurs="0"/>
+      <xs:element name="line2" type="xs:string" minOccurs="0"/>
+      <xs:element name="state" type="xs:string" minOccurs="0"/>
+      <xs:element name="zipcode" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

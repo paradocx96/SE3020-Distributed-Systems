@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><portfolio>
+<stock exchange="nyse">
+<name>Zack corp.</name>
+<symbol>ZCHM</symbol>
+<price>29.56</price>
+</stock>
+<stock exchange="nasdaq">
+<name>Zaffss Inc.</name>
+<symbol>ZFFX</symbol>
+<price>30.00</price>
+</stock>
+<stock exchange="nasdaq">
+<name>Freemans corp.</name>
+<symbol>FMMS</symbol>
+<price>33.56</price>
+</stock>
+</portfolio>
